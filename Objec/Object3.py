@@ -24,12 +24,12 @@ class Warrior(Jobs):
         self.ad = ad
         self.ap = ap
         print('전사 직업 능력치')
-        print('힘: {0}'.format(self.str, self.dex))
-        print('민첩: {0}'.format(self.dex))
-        print('지력: {0}'.format(self.int))
-        print('운: {0}'.format(self.luk))
-        print('물리 공격력: {0}'.format(self.ad))
-        print('마법 공격력: {0}'.format(self.ap))
+        print(f'힘: {self.str}')
+        print(f'민첩: {self.dex}')
+        print(f'지력: {self.int}')
+        print(f'운: {self.luk}')
+        print(f'물리 공격력: {self.ad}')
+        print(f'마법 공격력: {self.ap}')
 
     def item(self):
         print('소지중인 아이템: 검')
@@ -44,12 +44,12 @@ class Wizard(Jobs):
         self.ad = ad
         self.ap = ap
         print('마법사 직업 능력치')
-        print('힘: {0}'.format(self.str))
-        print('민첩: {0}'.format(self.dex))
-        print('지력: {0}'.format(self.int))
-        print('운: {0}'.format(self.luk))
-        print('물리 공격력: {0}'.format(self.ad))
-        print('마법 공격력: {0}'.format(self.ap))
+        print(f'힘: {self.str}')
+        print(f'민첩: {self.dex}')
+        print(f'지력: {self.int}')
+        print(f'운: {self.luk}')
+        print(f'물리 공격력: {self.ad}')
+        print(f'마법 공격력: {self.ap}')
 
     def item(self):
         print('소지중인 아이템: 지팡이')
@@ -64,12 +64,12 @@ class Archer(Jobs):
         self.ad = ad
         self.ap = ap
         print('궁수 직업 능력치')
-        print('힘: {0}'.format(self.str))
-        print('민첩: {0}'.format(self.dex))
-        print('지력: {0}'.format(self.int))
-        print('운: {0}'.format(self.luk))
-        print('물리 공격력: {0}'.format(self.ad))
-        print('마법 공격력: {0}'.format(self.ap))
+        print(f'힘: {self.str}')
+        print(f'민첩: {self.dex}')
+        print(f'지력: {self.int}')
+        print(f'운: {self.luk}')
+        print(f'물리 공격력: {self.ad}')
+        print(f'마법 공격력: {self.ap}')
 
     def item(self):
         print('소지중인 아이템: 활')
